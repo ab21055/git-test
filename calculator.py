@@ -24,6 +24,7 @@ class Calculator:
     @staticmethod
     def dev(a, b) -> float:
         """割り算を行う."""
+        return a/b
 
     # 文字列を入力すると計算結果を返す関数を実装してください
     @staticmethod
@@ -38,6 +39,7 @@ if __name__ == '__main__':
 
     # 各関数のテストコードを作成してください
     print(Calculator.add(numa, numb))
+    
 
 
     # 文字列の読み込み
